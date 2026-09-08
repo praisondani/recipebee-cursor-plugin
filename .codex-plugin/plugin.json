@@ -1,0 +1,31 @@
+{
+  "name": "recipebee-plugin",
+  "version": "0.1.0",
+  "description": "Preview and privately save recipes and meal plans in RecipeBee, with explicit image actions and user confirmation.",
+  "homepage": "https://recipebee.app",
+  "author": {
+    "name": "RecipeBee"
+  },
+  "license": "MIT",
+  "keywords": ["recipes", "cooking", "recipebee", "mcp"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "RecipeBee",
+    "shortDescription": "Save private recipes and meal plans.",
+    "longDescription": "RecipeBee lets a compatible MCP client understand ordinary-language recipe requests, preview recipes and meal plans, save them privately when explicitly requested, import meal plans only after recipe-match choices, create RecipeBee-generated food images, and attach an image selected from the current conversation. Meal-plan imports never generate or charge images; image generation is confirmed inside RecipeBee.",
+    "developerName": "RecipeBee",
+    "category": "Food",
+    "capabilities": ["Write"],
+    "websiteURL": "https://recipebee.app",
+    "privacyPolicyURL": "https://recipebee.app/privacy",
+    "termsOfServiceURL": "https://recipebee.app/terms",
+    "brandColor": "#E07A36",
+    "defaultPrompt": [
+      "Save this recipe privately to RecipeBee.",
+      "Save this recipe to RecipeBee and use RecipeBee's image generator.",
+      "Add this meal plan to my private RecipeBee account.",
+      "Attach the image generated in this conversation to my saved RecipeBee recipe."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

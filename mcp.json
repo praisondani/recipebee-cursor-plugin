@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "recipebee": {
+      "type": "http",
+      "url": "https://recipebee.app/mcp"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "recipebee",
+  "displayName": "RecipeBee",
+  "version": "0.1.0",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Preview and privately save recipes and meal plans in RecipeBee.",
+  "author": {
+    "name": "RecipeBee",
+    "email": "support@recipebee.app"
+  },
+  "publisher": "RecipeBee",
+  "homepage": "https://recipebee.app",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "recipes",
+    "cooking",
+    "meal planning",
+    "recipebee",
+    "mcp"
+  ],
+  "category": "integrations",
+  "tags": [
+    "food",
+    "recipes",
+    "meal-planning",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}
