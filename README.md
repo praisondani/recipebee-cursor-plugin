@@ -66,6 +66,9 @@ The server advertises protected-resource metadata, OAuth discovery, DCR-compatib
 
 ## Package contents
 
+- `plugin.json`: agent-plugins.org plugin metadata.
+- `AGENTS.md` and `.cursorrules`: agent instructions for Cursor and similar hosts.
+- `SKILL.md`: skills.sh / Agent Skills entry point. Install with `npx skills add praisondani/recipebee-cursor-plugin`.
 - `.cursor-plugin/plugin.json`: Cursor plugin manifest and marketplace metadata.
 - `mcp.json`: Cursor remote MCP configuration.
 - `.codex-plugin/plugin.json`: Codex plugin manifest.

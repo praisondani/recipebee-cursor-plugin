@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "recipebee",
+  "version": "0.1.0",
+  "description": "Preview and privately save recipes and meal plans in RecipeBee through the remote MCP server.",
+  "author": {
+    "name": "RecipeBee",
+    "email": "support@recipebee.app",
+    "url": "https://recipebee.app"
+  },
+  "homepage": "https://recipebee.app",
+  "repository": "https://github.com/praisondani/recipebee-cursor-plugin",
+  "license": "MIT",
+  "keywords": ["recipes", "cooking", "recipebee", "mcp"]
+}

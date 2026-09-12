@@ -1,0 +1,7 @@
+# RecipeBee Cursor plugin
+
+Use the hosted RecipeBee MCP server at https://recipebee.app/mcp.
+
+Public recipe search does not need an API key. Saving recipes and meal plans uses OAuth.
+
+See AGENTS.md and https://recipebee.app/llms.txt for product instructions.
