@@ -75,6 +75,11 @@ The server advertises protected-resource metadata, OAuth discovery, DCR-compatib
 - `.codex-plugin/plugin.json`: Codex plugin manifest.
 - `.mcp.json`: MCP configuration for compatible plugin hosts.
 - `skills/save-generated-recipe/SKILL.md`: intent routing and safety guidance.
+- `packages/recipebee-sdk/`: separate JavaScript SDK and CLI source for public API reads.
+
+## JavaScript SDK
+
+The [RecipeBee JavaScript SDK source](./packages/recipebee-sdk) supports public recipe, category, tag, cookbook, and blog reads. It does not perform private account actions; use the remote MCP server and OAuth for saves.
 
 ## Privacy and support
 
