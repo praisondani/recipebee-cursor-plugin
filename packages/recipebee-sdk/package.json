@@ -1,0 +1,47 @@
+{
+  "name": "recipebee-sdk",
+  "version": "0.1.0",
+  "description": "Zero-dependency JavaScript SDK and CLI for RecipeBee's public recipe API",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "bin": {
+    "recipebee": "./bin/recipebee.js"
+  },
+  "files": [
+    "src/",
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praisondani/recipebee-cursor-plugin.git",
+    "directory": "packages/recipebee-sdk"
+  },
+  "homepage": "https://recipebee.app/developers",
+  "bugs": {
+    "url": "https://github.com/praisondani/recipebee-cursor-plugin/issues"
+  },
+  "keywords": [
+    "recipebee",
+    "recipes",
+    "recipe-api",
+    "sdk",
+    "cooking"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
